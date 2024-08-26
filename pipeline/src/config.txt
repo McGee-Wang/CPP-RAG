@@ -1,0 +1,16 @@
+chunksize = 400
+chunkoverlap = 20
+files_path = C:\\wmq\\debug_projects\\debug_text_simi_cuda_with_merge\\src\\testdata2
+n_batch = 8196
+embedding_vectors_size = 256
+embedding_layers = 99
+embedding_models_directory_path = C:\\wmq\\debug_projects\\debug_text_simi_cuda_with_merge\\src\\embedding_models
+min_text_length = 50
+breakpoint_percentile_threshold = 25
+database_path = C:\\Users\\pc\\test2.db
+table_name = testtable
+llm_layers = 7
+llm_path = C:\\wmq\\projects\\helloworld\\llm_models\\qwen2-7b-instruct-q5_k_m.gguf
+chat_template_path = C:\\wmq\\projects\\helloworld\\projects\\llama.cpp-master\\prompts\\chat-with-qwen.txt
+prefix = <|im_start|>user\n
+suffix = <|im_end|>\n<|im_start|>assistant\n
